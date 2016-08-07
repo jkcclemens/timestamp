@@ -1,4 +1,5 @@
 # timestamp
+[![Crates.io](https://img.shields.io/crates/v/timestamp.svg)](https://crates.io/crates/timestamp)
 
 @bendem wrote a program like this in C++, so I wanted to write my own version in Rust for funsies.
 
