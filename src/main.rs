@@ -6,8 +6,7 @@ use time::{strftime, now};
 
 fn get_time_format() -> String {
   let mut args = args();
-  let time_format = args.nth(1).unwrap_or(String::from("%c"));
-  time_format
+  args.nth(1).unwrap_or_else(|| String::from("%c"))
 }
 
 fn append_timestamp_to_stdin_yo() -> Result<(), String> {
